@@ -1,0 +1,12 @@
+# software-engineering-2
+基于第一次结对编程作业设计的原型，开发出一款博饼软件
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
