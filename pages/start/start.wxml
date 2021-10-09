@@ -1,0 +1,17 @@
+<!--pages/start/start.wxml-->
+
+<!--页面根标签-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../img/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+    <view>-</view><view>-</view><view>-</view><view>-</view><view>-</view>
+    <view>-</view><view>-</view><view>-</view><view>-</view><view>-</view>
+    <view>-</view><view>-</view><view>-</view><view>-</view><view>-</view>
+    <view>-</view><view>-</view><view>-</view><view>-</view><view>-</view>
+    <button><navigator url="../result/result">快速游戏</navigator></button>
+    <button><navigator url="../multiplayer_game/multiplayer_game">多人游戏</navigator></button>
+    <button><navigator url="../gamerules/gamerules">游戏规则</navigator></button>
+</view>
+
+
