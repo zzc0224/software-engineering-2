@@ -1,0 +1,11 @@
+/* pages/result/result.wxss */
+page{
+  background-color: rgb(226, 65, 65);
+}
+image{
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    width: 160px;
+    height: 120px;
+}
