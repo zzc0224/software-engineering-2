@@ -1,0 +1,23 @@
+# software-engineering-2
+基于第一次结对编程作业设计的原型，开发出一款博饼软件
+{
+  "pages":[
+    "pages/index/index",
+    "pages/start/start",
+    "pages/multiplayer_game/multiplayer_game",
+    "pages/start_game/start_game",
+    "pages/gamerules/gamerules",
+    "pages/result/result",
+    "pages/prize/prize",
+    "pages/lookprize/lookprize",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
