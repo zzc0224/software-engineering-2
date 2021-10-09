@@ -1,0 +1,16 @@
+<!--pages/result/result.wxml-->
+ <view>
+   <view>{{this_level}}</view>
+   <view>历史记录：</view>
+    <view>{{Arrlevel}}</view>
+    <view>-----</view>
+    <image wx:if="{{num1>0}}" src="../img/{{num1}}.png" mode="aspectFit"></image>
+    <image wx:if="{{num2>0}}" src="../img/{{num2}}.png" mode="aspectFit"></image>
+    <image wx:if="{{num3>0}}" src="../img/{{num3}}.png" mode="aspectFit"></image>
+    <image wx:if="{{num4>0}}" src="../img/{{num4}}.png" mode="aspectFit"></image>
+    <image wx:if="{{num5>0}}" src="../img/{{num5}}.png" mode="aspectFit"></image>
+    <image wx:if="{{num6>0}}" src="../img/{{num6}}.png" mode="aspectFit"></image>
+    <button bindtap="picesCode">再来一次</button>
+  
+    
+</view>
